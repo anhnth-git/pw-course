@@ -1,0 +1,6 @@
+a. Tạo 3 file: file1, file2, file3
+b. Chạy lệnh: git init // khoi tao
+c. Chạy lệnh: git commit -m”init project” // chua co file nao vao vung staging nen lenh nay chua co file nao duoc commit
+d. Chạy lệnh: git add file1 // add file 1 
+e. Chạy lệnh: git commit -m”add file1” //commit file 1 
+f. Chạy lệnh: git commit -m”add file” //chi co 1 file duoc commit len
