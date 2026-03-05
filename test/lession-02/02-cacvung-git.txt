@@ -1,4 +1,4 @@
-a. Tạo 3 file: file1, file2, file3
+a. Tạo 3 file: file1, file2, file3 // đang ở vùng local 
 b. Chạy lệnh: git init // khoi tao
 c. Chạy lệnh: git commit -m”init project” // chua co file nao vao vung staging nen lenh nay chua co file nao duoc commit
 d. Chạy lệnh: git add file1 // add file 1 

@@ -1,0 +1,4 @@
+git init: là khởi tạo repo 
+git add file name: là thêm file đó vào vùng staging ( vùng chuẩn bị)
+git add .: là thêm các file còn lại vào vùng staging 
+git commit -m "tên phiên bản" : tạo ra phiên bản
