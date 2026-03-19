@@ -1,11 +1,11 @@
-// console.log("Hello World !");
-/*
+## console.log("Hello World !");
+*Câu lệnh*
 console.log("Hello World !");
 console.log("Hello World !");
 console.log("Hello World !");
 console.log("Hello World !");
-*/
 
+## Câu lệnh khai báo biến
 let myName = "Anhnth";
 let myAge = 18;
 // console.log(myName);
@@ -23,6 +23,7 @@ console.log(sologan);
 // sologan = "hadh";
 // console.log(sologan);
 
+## Câu lệnh khai báo hằng
 const age = 25; // Số nguyên
 const price = 19.99; // Số thực
 const infinity = Infinity; // Vô hạn

@@ -1,0 +1,10 @@
+Câu 1:  Xpath tuyệt đối 
+a. /html/body/div[1]/div[6]/div[1]/main/div[2]/div/div/div/div[1]/div[2]/div/table/tbody/tr[22]/td[2]
+b. /html/body/div[1]/div[6]/div[1]/main/div[2]/div/div/div/div[1]/div[2]/div/table/tbody/tr[12]/td[2]
+c. /html/body/div[1]/div[6]/div[1]/main/div[2]/div/div/div/div[1]/div[2]/div/table/tbody/tr[18]/td[2]
+
+Câu 2: Xpath tương đối
+a. //td[@id='file-dom-html-LC24' and class = 'blob-code blob-code-inner js-file-line']
+b. //td[@id ='file-dom-html-LC35']
+c. //td[@id ='file-dom-html-LC41']
+d. //td[@id ='file-dom-html-LC19']
