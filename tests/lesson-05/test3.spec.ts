@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Thêm sản phẩm', async ({ page }) => {
+test('Điên vào input', async ({ page }) => {
     await page.goto('https://material.playwrightvn.com/');
 
     await page.getByRole('link', { name: 'Bài học 3: Todo page' }).click();
@@ -12,5 +12,16 @@ test('Thêm sản phẩm', async ({ page }) => {
 
     await test.step("Step 2: Thêm mới todo", async () => {
         await page.locator("//input[@id='new-task']").fill(text);
+    });
+
+    let chan = "";
+    for (let i = 0; i < 100; i++) {
+        if (i % 2 === 0) {
+            chan += "todo" + i;
+        }
+    }
+
+    await test.step("Step 2: Thêm mới todo", async () => {
+        await page.locator("//input[@id='new-task']").fill(chan);
     });
 });
