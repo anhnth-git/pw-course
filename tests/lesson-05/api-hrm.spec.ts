@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test("Test api gửi mail ", async ({ request }) => {
+test("@api Test api gửi mail ", async ({ request }) => {
 
     const emails = ["anhnth@etc.vn", "linhpy@etc.vn", "epay_hrm01@epayjsc.com", "epay_hrm02@epayjsc.com"];
 
