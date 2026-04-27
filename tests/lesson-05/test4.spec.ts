@@ -6,7 +6,8 @@ test('Thêm sản phẩm', async ({ page }) => {
     await page.getByRole('link', { name: '	Bài học 4: Personal notes' }).click();
 
     await test.step("Step 2: Điền vào filed", async () => {
-        await page.locator("//input[@id='new-task']").fill();
-    
+        await page.locator("//textarea[@id='note-content']").fill("Hương Anh");
+        await page.getByRole('textbox', {name: 'Title'}).fill('test1');
+        await page.getByRole('button', {name: 'Add Note'}).click();
     });
 });
